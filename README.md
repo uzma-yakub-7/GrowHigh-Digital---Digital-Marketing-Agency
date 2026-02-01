@@ -62,11 +62,11 @@ SEO: Search Engine Optimization
 CTA: Call to Action
 Responsive: Fits different screen sizes.
 # 7. References
-## https://coschedule.com/agency-marketing/best-agency-websites https://createncode.com/blog/top-features-of-the-best-digital-marketing-agency-websites-in-2025 
-## https://www.dotdesh.com/top-digital-marketing-agencies-in-the-world https://www.cloudways.com/blog/best-digital-marketing-agencies/
-## https://themegaactivity.com/best-digital-marketing-agency-websites
-## hthttps://blogs.backlinkworks.com/the-best-examples-of-creative-digital-agency-websites/tps://themegaactivity.com/best-digital-marketing-agency-websites
-## https://blog.hubspot.com/website/digital-marketing-website
-## https://muffingroup.com/blog/best-agency-websites
+https://coschedule.com/agency-marketing/best-agency-websites https://createncode.com/blog/top-features-of-the-best-digital-marketing-agency-websites-in-2025 
+https://www.dotdesh.com/top-digital-marketing-agencies-in-the-world https://www.cloudways.com/blog/best-digital-marketing-agencies/
+https://themegaactivity.com/best-digital-marketing-agency-websites
+hthttps://blogs.backlinkworks.com/the-best-examples-of-creative-digital-agency-websites/tps://themegaactivity.com/best-digital-marketing-agency-websites
+https://blog.hubspot.com/website/digital-marketing-website
+https://muffingroup.com/blog/best-agency-websites
 ## https://www.reddit.com/r/u_nancydigital/comments/11or01g
 
