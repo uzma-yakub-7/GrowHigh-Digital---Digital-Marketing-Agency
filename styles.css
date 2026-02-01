@@ -1,0 +1,211 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: black;          
+  background-color: white; 
+  line-height: 1.6;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: whitesmoke; 
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar .logo-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .logo {
+  height: 40px; 
+}
+
+.navbar .company-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: darkblue; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  color: deepskyblue; 
+}
+
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 300px;  
+  padding-right: 300px;
+}
+
+.section h1,
+.section h2 {
+  color: darkblue;
+  margin-bottom: 1rem;
+}
+
+
+.btn-primary {
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: deepskyblue;
+}
+
+
+.service-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tier {
+  flex: 1;
+  min-width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+}
+
+.service-list li {
+  margin-bottom: 0.5rem;
+}
+
+
+.portfolio-grid,
+.blog-grid,
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.portfolio-card img,
+.blog-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+
+.blog-card p a {
+  color: darkblue;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.blog-card p a:hover {
+  text-decoration: underline;
+}
+
+
+.testimonial-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  background-color: whitesmoke; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  text-align: left;
+}
+
+.testimonial-card img.testimonial-avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+
+.btn-primary,
+.nav-links li a,
+.blog-card p a {
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+  .service-tiers {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
