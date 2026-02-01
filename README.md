@@ -16,7 +16,7 @@ SEO visitors looking for solutions to problems like low online visibility, weak 
 The website is a standalone, static web application using HTML5, CSS3, and JavaScript with no backend database. Contact data is collected via a Google Form. The site is structured to support best practices for visibility, engagement, and conversion. 
 ## 2.2 User Needs
 Users expect:
-Clear navigation and fast access to essential information
+#### Clear navigation and fast access to essential information
 Effective Solutions to business growth problems
 Contact mechanisms without complex forms
 ## 3. Functional Requirements
